@@ -1,0 +1,73 @@
+* {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hela {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.icon {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.bilden {
+    width: 35rem;
+    height: 35rem;
+}
+
+.wrapper {
+    border: 10px solid green;
+}
+
+.boxInfo {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media all and (max-width:700px) {
+    .boxInfo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.styreTider {
+    background-color: yellow;
+    width: 25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.tider {
+    height: 2rem;
+}
+
+.styrelse {
+    height: 2rem;
+}
+
+.tränaavgifter {
+    background-color: pink;
+    width: 25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.avgifter {
+    height: 2rem;
+}
+
+.tränare {
+    height: 2rem;
+}
