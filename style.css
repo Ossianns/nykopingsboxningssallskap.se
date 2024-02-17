@@ -1,0 +1,150 @@
+* {
+    border: 1px solid black;
+    text-align: center;
+}
+
+:root {
+    --szknappar: 3rem;
+    /*Knapparnas storlek*/
+
+    --clrknappar: white;
+    /*Knapparnas färg*/
+
+    --txtclrknappar: black;
+    /*Knapparnas textfärg*/
+
+    --hvrclrknappar: red;
+    /*Knapparnas hover färg*/
+}
+
+.hela {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.icon {
+    background-color: red;
+    display: grid;
+    justify-content: center;
+}
+
+.rubrik {
+    font-size: 2rem;
+}
+
+.bilden {
+    max-width: 35rem;
+    max-height: 35rem;
+}
+
+.wrapper {
+    border: 10px solid green;
+    height: 15rem;
+}
+
+.boxInfo {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+@media all and (max-width:700px) {
+    .boxInfo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.styreTider {
+    background-color: grey;
+    width: 25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    justify-content: space-evenly;
+}
+
+.tränaavgifter {
+    background-color: pink;
+    width: 25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+
+.tider:hover {
+    background-color: var(--hvrclrknappar);
+}
+
+.styrelse:hover {
+    background-color: var(--hvrclrknappar);
+}
+
+.avgifter:hover {
+    background-color: var(--hvrclrknappar);
+}
+
+.tränare:hover {
+    background-color: var(--hvrclrknappar);
+}
+
+.tider {
+    height: var(--szknappar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: var(--clrknappar);
+}
+
+.styrelse {
+    height: var(--szknappar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clrknappar);
+}
+
+.avgifter {
+    height: var(--szknappar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clrknappar);
+}
+
+.tränare {
+    height: var(--szknappar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clrknappar);
+}
+
+.länkTider {
+    text-decoration: none;
+    color: var(--txtclrknappar);
+}
+
+.länkStyrelse {
+    text-decoration: none;
+    color: var(--txtclrknappar);
+}
+
+.länkAvgifter {
+    text-decoration: none;
+    color: var(--txtclrknappar);
+}
+
+.länkTränare {
+    text-decoration: none;
+    color: var(--txtclrknappar);
+}
