@@ -1,0 +1,23 @@
+* {
+    border: 2px solid green;
+}
+
+body {
+    height: 100vh;
+}
+
+.hela {
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+}
